@@ -1,0 +1,405 @@
+*{
+  padding:0;
+  margin:0;
+  font-family: "League Spartan", sans-serif;
+  box-sizing:border-box;
+}
+.main{
+  position: relative;
+  height:186.21vh;
+  width:100vw;
+  background-image:url(img1.png) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow:hidden;
+ 
+}
+.img1{
+  height:186.21vh;
+  width:100vw;
+  position:relative;
+  background-color:rgba(1, 0, 35, 1) ;
+  opacity:85%;
+  text-align: center;
+}
+.heading{
+  display:inline-block;
+  text-align: center;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 600;
+  font-size:3.25rem;
+  line-height:4.388rem;
+  letter-spacing: 1%;
+  color:#FFFFFF;
+  margin-top: 6.125rem;
+
+}
+.parent{
+  position:absolute;
+  margin-left: 0%;
+  margin-top:9.97rem;
+  height:34.31rem;
+  width:48.5rem;
+  display:flex;
+  flex-direction: row;
+   align-items: center;
+  justify-content: center;
+  
+}
+.child1{
+  position:absolute;
+  width:8.799rem;
+  height:20.094rem;
+  background-image:url(img2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  left:0;
+  margin-top:9.456rem;
+  margin-right:66%;
+}
+.child2{
+  position:relative;
+  height:34.31rem;
+  width:34.31rem;
+  margin-bottom: 3rem;
+  margin-right:9%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.inner{
+  width:16.813rem;
+  height:16.813rem;
+  position:absolute;
+  background-image: url(img4.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 23%;
+  margin-left: 0%;
+  z-index: 155;
+
+}
+.inner1{
+  height:19.437rem;
+  width:19.437rem;
+  background-color:rgba(0, 0, 0, 1);
+  backdrop-filter:blur(30px);
+  position:absolute;
+ 
+z-index: 1; 
+
+}
+.child2 img {
+  position: relative; 
+  z-index: 2; 
+}
+
+.child3{
+  position:absolute;
+  width:8.799rem;
+  height:20.094rem;
+  background-image:url(img5.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  left:0;
+  margin-top:8.456rem;
+  margin-left:73%;
+}
+
+.inputcontainer{
+  position:absolute;
+  margin-top:-75rem ;
+  margin-left:42rem ;
+  height: 917px;
+  width: 590px;
+  color: aliceblue;
+  padding: 69.155px;
+  background-color: rgb(8, 6, 28);
+border: 3px solid grey;
+
+
+}
+.input{
+  margin-top: 35px;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 600;
+  height: 72px;
+  width: 452px;
+}
+input,select{
+  color: aliceblue;
+  width: 452px;
+height: 40.8px;
+border: 0.93px solid grey;
+border-radius: 6.14px;
+background-color: rgba(255, 255, 255, 0.059);
+}
+.verifybtn{
+  color: aliceblue;
+  line-height: 21px;
+  font-size: 21px;
+  width: 452px;
+height: 53px;
+border: 0.93px solid grey;
+border-radius: 6.14px;
+background: linear-gradient(to right,#1053DC, #319AD6);
+}
+.input1{
+  margin-top: 35px;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+}
+label{
+  top: 0px;
+  display: block;
+  height: 30px;
+}
+.gender select{
+  width:218.44px;
+}
+.scholar select{
+  width:218.44px;
+}
+option{
+  color: black;
+}
+.name{
+  font-family: "League Spartan", sans-serif;
+  font-weight: 600;
+  height: 72px;
+  width: 452px;
+}
+
+
+.verification{
+  position:absolute;
+  top: 15rem;
+  left: 42rem;
+  width: 590px;
+  height: 817px;
+  background-color: rgb(8, 6, 28);
+border: 3px solid grey;
+}
+.verihead{
+  color: aliceblue;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 104px;
+  letter-spacing: 1%;
+}
+.para{
+  color: rgb(255, 255, 255);
+  width: 405px;
+  height: 64px;
+  margin-top: 43px;
+  margin-left: 92.58px;
+  opacity: 60%;
+  font-family: "League Spartan", sans-serif;
+font-weight: 500;
+font-size: 24px;
+text-align: center;
+}
+.para span{
+  text-decoration: underline;
+}
+.otp{
+  height: 78.1px;
+  width: 444.4px;
+  display: flex;
+  gap: 44px;
+  margin-left: 72px;
+  margin-top: 122px;
+}
+.no{
+  background-color:rgba(255, 255, 255, 0.02) ;
+  width: 78.1px;
+  height: 78.1px;
+  border: 1.1px solid rgba(255, 255, 255, 0.302);
+  border-radius: 7.28px;
+  text-align: center;
+  font-size: 24px;
+}
+.error {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.submitbtn{
+  margin-top:122.61px ;
+  width: 487.17px;
+  height: 53px;
+  margin-left: 51px;
+  border-radius: 8px;
+  padding: 16px 202.71px;
+background: linear-gradient(to right,#1053DC, #319AD6);
+}
+.resend{
+  color: aliceblue;
+  margin-top: 43px;
+  width: 100px;
+  margin-left: 245px;
+  height: 18px;
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration:underline;
+}
+@media (min-width:300px) and (max-width:420px) {
+  .main{
+    height:209vh;
+    width:auto;
+    position: relative;
+  }
+  .img1{
+    text-align: center;
+    height:209vh;
+
+  }
+  .heading{
+    font-size:2rem;
+    margin-top:2rem;
+  }
+  .parent{
+    width:100vw;
+    height:auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:-5.013rem;
+    margin-left:4%;
+
+  }
+  .child2{
+    display: flex;
+    flex-wrap: wrap;
+    height:25rem;
+    width:auto;
+  }
+  .inner1{
+    height:7.37rem;
+    width:9.437rem;
+  }
+  .child2 img{
+    height:70%;
+    width:90%;
+  }
+  .inner{
+    height:7.713rem;
+    width:8.813rem;
+  }
+  .child1{
+    display:flex;
+    flex-wrap: wrap;
+    left:-3.375rem;
+    width:6.799rem;
+    height:20rem;
+
+  }
+  .child3{
+    display:flex;
+    flex-wrap: wrap;
+    right:-3.375rem;
+    width:5.799rem;
+    height:19rem;
+
+  }
+  
+  .name{
+    display: flex;
+    flex-wrap: wrap;
+    height:3.563rem;
+    width:16.5rem;
+  }
+  .inputcontainer{
+   position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 304px;
+    height: 964px;
+    border: 1.09px solid #FFFFFF33;
+    border-radius:5.44px ;
+    margin:0 auto;
+    padding:1rem;
+    top: 300px;
+    left: 30px;
+  }
+input , select{
+  display: flex;
+  flex-wrap: wrap;
+  width: 264px;
+    height: 34.8px;
+    margin: 20px 0px;
+}
+.input1{
+  display: flex;
+  flex-direction: column;
+}
+.scholar select{
+  width: 264px;
+  /* margin-top: 35px; */
+}
+
+.gender select{
+  width: 264px;
+}
+.studentno{
+  margin-top: 180px;
+}
+label{
+  display: flex;
+  flex-wrap: wrap;
+}
+form{
+  display: flex;
+  flex-wrap: wrap;
+}
+.verifybtn{
+  width: 264px;
+}
+.verification{
+  width: 304px;
+  height: 450px;
+  top: 300px;
+  left: 30px;
+}
+.submitbtn{
+  margin: auto;
+  height: 44px;
+  width: 264px;
+  padding: 14px 112px 14px 112px;
+  margin-left: 16px;
+  border-radius: 4.2px;
+}
+.resend{
+  margin: 28px 10px 10px  88px;
+}
+.verihead{
+ 
+  font-size: 24px;
+  margin-top: 43.2px;
+} 
+.para{
+  width: 236px;
+  font-size: 14px;
+  margin: 33px auto;
+}
+.otp{
+  gap: 18px;
+margin: 16px;
+}
+.no{
+  margin:3px;
+  height: 46.86px;
+  width: 46.86px;
+}
+
+}
